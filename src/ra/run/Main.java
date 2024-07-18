@@ -79,7 +79,7 @@ public class Main {
                     deleteLaptopType(sc);
                     break;
                 case 5:
-                    System.exit(0);
+                    return;
             }
         }while (true);
     }
@@ -217,7 +217,7 @@ public class Main {
                     statisticalLaptop();
                     break;
                 case 6:
-                    System.exit(0);
+                    return;
             }
         }while (true);
     }
